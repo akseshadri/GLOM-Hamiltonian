@@ -107,6 +107,9 @@ If you use this code, please cite:
 
 > Seshadri, A.K. and Lakshmivarahan, S. (2026a). Quadratic invariants and Hamiltonian
 > structure in coupled gyrostat low-order model hierarchies. [doi pending]
+>
+> Code: akseshadri. (2026). akseshadri/GLOM-Hamiltonian: Initial release (v1.0.0).
+> Zenodo. https://doi.org/10.5281/zenodo.20112613
 
 ---
 
