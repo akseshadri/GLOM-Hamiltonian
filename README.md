@@ -44,8 +44,7 @@ GLOM_Hamiltonian_repo/
 ### `invariants/` — Standard algebraic approach
 
 These scripts compute quadratic invariants using the constraint-matrix (column-echelon)
-method of the SI. For a GLOM with $M$ modes, the invariant $C = \sum_i d_i x_i^2/2 + f_i x_i$
-must satisfy $\dot{C} = 0$, which gives a linear system $Au = 0$ whose null-space dimension
+method of the SI. For a GLOM with $M$ modes, the invariant $C = \sum_i d_i x_i^2/2 + \sum_{i < j} e_{ij} x_i x_j + \sum_i f_i x_i$ must satisfy $\dot{C} = 0$, which gives a linear system $Au = 0$ whose null-space dimension
 equals the invariant count.
 
 | File | What it computes |
@@ -70,7 +69,7 @@ for each gyrostat and evaluate the Jacobi identity symbolically at each hierarch
 
 These scripts compute Casimir functions explicitly and verify the gradient consistency
 property: the $K$-level Casimir gradient is collinear with the projection of the
-$(K+1)$-level gradient (Theorem 2 of the main text).
+$(K+1)$-level gradient.
 
 | File | What it computes |
 |---|---|
@@ -95,7 +94,7 @@ Jacobi condition for every candidate symbolically.
 
 ## Requirements
 
-- MATLAB R2019b or later
+- MATLAB R2019b or later (earlier versions are untested)
 - Symbolic Math Toolbox (required for all scripts)
 
 ---
