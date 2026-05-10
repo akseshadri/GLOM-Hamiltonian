@@ -1,5 +1,7 @@
 # GLOM Hamiltonian Structure: Code Repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20112613.svg)](https://doi.org/10.5281/zenodo.20112613)
+
 **Paper:** Quadratic invariants and Hamiltonian structure in coupled gyrostat low-order model hierarchies  
 **Authors:** Seshadri and Lakshmivarahan (2026a)  
 **Journal:** (submitted)
